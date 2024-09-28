@@ -1,0 +1,2 @@
+export const useHeaderClass = () => useState('headerClass', () => 'flex justify-center items-center text-2xl m-2 px-4 py-3 font-normal border-2 border-transparent rounded-xl cursor-pointer transition-all duration-500')
+export const useHeaderHoverClass = () => useState('headerHoverClass', () => 'font-semibold tracking-wider hover:border-white/25 hover:rounded-md hover')
