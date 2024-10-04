@@ -66,7 +66,9 @@ const skills = ref([
 
             <div class="flex justify-between flex-wrap">
                 <SectionText class="basis-full lg:basis-1/2">I am a beginner Front-End developer, who has a passion of making web apps using Nuxt 3 and Vue.js 3</SectionText>
-                <SectionImage class="basis-full lg:basis-1/4" src="/mandarin-duck.jpg" />
+                <div class="basis-full lg:basis-1/4">
+                    <SectionImage src="/mandarin-duck.jpg" />
+                </div>
             </div>
 
             <SectionDivider />
