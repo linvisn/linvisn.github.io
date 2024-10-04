@@ -1,6 +1,6 @@
 <template>
     <div class="mx-8">
-        <footer class="relative flex flex-row justify-between flex-wrap gap-8 w-fit mx-auto mb-8 px-8 py-4 rounded
+        <footer class="relative flex flex-col lg:flex-row justify-between items-center flex-wrap gap-x-8 gap-y-4 w-fit mx-auto mb-8 px-8 py-4 rounded
             before:rounded-md
         ">
             <FooterLink href="https://github.com/linvisn"><i class="bi bi-github"></i> GitHub</FooterLink>
