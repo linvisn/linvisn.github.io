@@ -5,7 +5,7 @@ defineProps({
 </script>
 
 <template>
-    <div class="icon w-24 m-1 p-3 border-2 border-transparent hover:border-white/25 rounded-md duration-300">
+    <div class="icon w-20 lg:w-24 m-1 p-3 border-2 border-transparent hover:border-white/25 rounded-md duration-300">
         <img :src="image">
     </div>
 </template>
