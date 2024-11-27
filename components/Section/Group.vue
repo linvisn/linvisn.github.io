@@ -91,7 +91,7 @@ const skills = ref([
             
             <SectionCard id="linTime">
                 <div class="basis-full lg:basis-1/2">
-                    <SectionSubheader :image="'/linTime.png'">linTime</SectionSubheader>
+                    <SectionSubheader>linTime</SectionSubheader>
                     <SectionText>A simple app with usual Timer, Tabata Timer and Stopwatch, created with Nuxt 3</SectionText>
                 </div>
 
