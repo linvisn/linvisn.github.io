@@ -67,7 +67,7 @@ const skills = ref([
             <div class="flex justify-between flex-wrap">
                 <SectionText class="basis-full lg:basis-1/2">I am a beginner Front-End developer, who has a passion of making web apps using Nuxt 3 and Vue.js 3</SectionText>
                 <div class="basis-full lg:basis-1/4">
-                    <SectionImage src="/mandarin-duck.jpg" />
+                    <SectionImage :image="'/mandarin-duck.jpg'" :label="'Literally me'" />
                 </div>
             </div>
 
@@ -91,14 +91,14 @@ const skills = ref([
             
             <SectionCard id="linTime">
                 <div class="basis-full lg:basis-1/2">
-                    <SectionSubheader>linTime</SectionSubheader>
+                    <SectionSubheader>lintime</SectionSubheader>
                     <SectionText>A simple app with usual Timer, Tabata Timer and Stopwatch, created with Nuxt 3</SectionText>
                 </div>
 
                 <div class="basis-full lg:basis-1/3">
-                    <SectionImage src="/linTime-screenshot.png" />
+                    <SectionImage :image="'/lintime-screenshot.png'" :label="'My first Nuxt project'" />
 
-                    <SectionButton :link="'https://linvisn.github.io/linTime/'">Check it out!</SectionButton>
+                    <SectionButton :link="'https://lintime.deno.dev/'">Check it out!</SectionButton>
                 </div>
             </SectionCard>
         </Section>
