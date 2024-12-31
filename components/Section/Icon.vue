@@ -1,12 +1,16 @@
 <script setup>
 defineProps({
-    image: String
+    image: String,
+    label: String
 })
+
+const isHovered = ref(false)
 </script>
 
 <template>
-    <div class="icon w-20 lg:w-24 m-1 p-3 border-2 border-transparent hover:border-white/25 rounded-md duration-300">
+    <div class="icon relative w-20 lg:w-24 m-1 p-3 border-2 border-transparent hover:border-white/25 rounded-md duration-300" @mouseover="isHovered = true" @mouseout="isHovered = false">
         <img :src="image">
+        <span class="label absolute -top-8 left-1/2 -translate-x-1/2 w-32 px-1 text-base font-medium text-center border-2 border-black/25 rounded-lg bg-yellow-500/75 opacity-0 duration-200 z-10" :class="{ 'opacity-100': isHovered }">{{ label }}</span>
     </div>
 </template>
 
@@ -34,5 +38,9 @@ defineProps({
 }
 .primary:hover img {
     filter: drop-shadow(0.15em 0.15em 0 rgba(0, 0, 0, 0.5));
+}
+
+.label {
+    backdrop-filter: blur(10px) brightness(75%);
 }
 </style>
