@@ -10,7 +10,7 @@ const isHovered = ref(false)
 <template>
     <div class="icon relative w-20 lg:w-24 m-1 p-3 border-2 border-transparent hover:border-white/25 rounded-md duration-300" @mouseover="isHovered = true" @mouseout="isHovered = false">
         <img :src="image">
-        <span class="label absolute -top-8 left-1/2 -translate-x-1/2 w-32 px-1 text-base font-medium text-center border-2 border-black/25 rounded-lg bg-yellow-500/75 opacity-0 duration-200 z-10" :class="{ 'opacity-100': isHovered }">{{ label }}</span>
+        <span class="label absolute left-1/2 -translate-x-1/2 px-1 text-base font-medium text-center border-2 border-black/25 rounded-lg bg-yellow-500/75 duration-200 z-10" :class="{ '-top-8 w-28 opacity-100': isHovered }, { 'top-0 w-full opacity-0': !isHovered }">{{ label }}</span>
     </div>
 </template>
 
@@ -42,5 +42,7 @@ const isHovered = ref(false)
 
 .label {
     backdrop-filter: blur(10px) brightness(75%);
+
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.25);
 }
 </style>
