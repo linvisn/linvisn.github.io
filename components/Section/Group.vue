@@ -26,14 +26,9 @@ const skills = ref([
         label: 'Javascript'
     },
     { 
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg',
+        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg',
         isPrimary: true,
-        label: 'HTML'
-    },
-    { 
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg',
-        isPrimary: true,
-        label: 'CSS'
+        label: 'C'
     },
     { 
         image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg',
@@ -41,12 +36,16 @@ const skills = ref([
         label: 'Git'
     },
     { 
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg',
-        label: 'Python'
+        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg',
+        label: 'HTML'
     },
     { 
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg',
-        label: 'C'
+        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg',
+        label: 'CSS'
+    },
+    { 
+        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg',
+        label: 'Python'
     },
     { 
         image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg',
