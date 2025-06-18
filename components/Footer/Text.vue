@@ -6,8 +6,8 @@
 
 <style scoped>
 .text {
-    background: rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, .25);
     
-    box-shadow: 0 0 1.5em rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0 1.5em rgba(255, 255, 255, .25);
 }
 </style>

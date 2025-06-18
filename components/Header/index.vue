@@ -36,7 +36,7 @@
 
 <style scoped>
 header {
-    border-color: rgba(149, 147, 255, 0.25);
+    border-color: rgba(149, 147, 255, .25);
 
     backdrop-filter: blur(10px) brightness(90%);
 }

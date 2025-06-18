@@ -10,9 +10,9 @@ const isHovered = ref(false)
 
 <style scoped>
 .item {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, .1);
 }
 .hover {
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, .15);
 }
 </style>

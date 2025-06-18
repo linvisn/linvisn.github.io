@@ -23,7 +23,7 @@ defineProps({
     background: rgb(61, 64, 202);
 }
 .button:hover {
-    background: rgb(88, 6, 77) !important;
+    background: rgb(74, 60, 131) !important;
 }
 
 .button::before, .button::after {
@@ -39,7 +39,7 @@ defineProps({
     width: 100%;
     padding: 0.15rem;
 
-    background: conic-gradient(from var(--angle), transparent, rgba(255, 255, 135, 0.5), rgba(255, 135, 255, 0.5), transparent);
+    background: conic-gradient(from var(--angle), transparent, rgba(255, 255, 135, .5), rgba(255, 135, 255, .5), transparent);
 
     animation: 2s spin ease-in-out infinite;
     transition: inherit;

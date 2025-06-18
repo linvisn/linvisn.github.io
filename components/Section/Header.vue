@@ -6,11 +6,11 @@
 
 <style scoped>
 .header {
-    text-shadow: -0.1em 0 rgba(255, 255, 255, 0.25);
+    text-shadow: -0.1em 0 rgba(255, 255, 255, .25);
 }
 
 .centered {
     text-align: center;
-    text-shadow: 0 0.1em rgba(255, 255, 255, 0.25);
+    text-shadow: 0 0.1em rgba(255, 255, 255, .25);
 }
 </style>

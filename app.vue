@@ -32,6 +32,6 @@
 }
 
 body {
-    background: linear-gradient(45deg, rgb(13, 103, 131), rgb(90, 13, 126), rgb(109, 83, 12));
+    background: linear-gradient(45deg, rgb(13, 103, 131), rgb(53, 13, 126), rgb(122, 12, 173));
 }
 </style>

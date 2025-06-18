@@ -16,33 +16,33 @@ const isHovered = ref(false)
 
 <style scoped>
 .icon {
-    background: rgba(179, 29, 166, 0.5);
+    background: rgba(179, 29, 166, .5);
 }
 .icon:hover {
-    background: rgba(128, 155, 231, 0.75);
+    background: rgba(128, 155, 231, .65);
     
-    box-shadow: 0 0 1em rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 1em rgba(255, 255, 255, .5);
 }
 .primary {
-    background: rgba(230, 213, 64, 0.5);
+    background: rgba(230, 213, 64, .5);
 }
 
 .icon img {
-    filter: drop-shadow(0.2em 0.2em 0.15em rgba(255, 255, 255, 0.25));
+    filter: drop-shadow(0.2em 0.2em 0.15em rgba(255, 255, 255, .25));
 }
 .icon:hover img {
-    filter: drop-shadow(0.15em 0.15em 0 rgba(255, 255, 255, 0.5));
+    filter: drop-shadow(0.15em 0.15em 0 rgba(255, 255, 255, .5));
 }
 .primary img {
-    filter: drop-shadow(0.2em 0.2em 0.15em rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(0.2em 0.2em 0.15em rgba(0, 0, 0, .25));
 }
 .primary:hover img {
-    filter: drop-shadow(0.15em 0.15em 0 rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0.15em 0.15em 0 rgba(0, 0, 0, .5));
 }
 
 .label {
     backdrop-filter: blur(10px) brightness(75%);
 
-    box-shadow: 0 0 1em rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 1em rgba(0, 0, 0, .25);
 }
 </style>

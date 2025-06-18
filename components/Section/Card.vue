@@ -6,8 +6,8 @@
 
 <style scoped>
 .card {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, .1);
     
-    box-shadow: 0 0 1.5em rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1.5em rgba(255, 255, 255, .1);
 }
 </style>

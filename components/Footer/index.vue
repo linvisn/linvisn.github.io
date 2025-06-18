@@ -12,7 +12,7 @@
 
 <style scoped>
 footer {
-    background-color: rgba(126, 18, 175, 0.75);
+    background-color: rgba(126, 18, 175, .75);
 }
 
 footer::before {

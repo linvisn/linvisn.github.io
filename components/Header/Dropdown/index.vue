@@ -29,12 +29,12 @@ const hoverClass = useHeaderHoverClass()
 
 <style scoped>
 .dropdown {
-    background: rgba(255, 215, 83, 0.5);
+    background: rgba(83, 255, 112, .5);
 }
 
 .hover {
-    text-shadow: 0.1em 0 rgba(15, 209, 167, 0.75);
+    text-shadow: 0.1em 0 rgba(255, 255, 255, .25);
     
-    background: rgba(97, 211, 116, 0.5);
+    background: rgba(40, 255, 183, .5);
 }
 </style>

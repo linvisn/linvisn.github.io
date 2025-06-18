@@ -12,12 +12,12 @@ const hoverClass = useHeaderHoverClass()
 
 <style scoped>
 .link {
-    background: rgba(255, 132, 83, 0.5);
+    background: rgba(255, 132, 83, .5);
 }
 
 .hover {
-    text-shadow: 0.1em 0 rgba(28, 182, 202, 0.75);
+    text-shadow: 0.1em 0 rgba(255, 255, 255, .25);
 
-    background: rgba(145, 60, 255, 0.5);
+    background: rgba(180, 122, 255, .5);
 }
 </style>

@@ -4,6 +4,6 @@
 
 <style scoped>
 .divider {
-    border-color: rgba(0, 255, 255, 0.25);
+    border-color: rgba(0, 255, 255, .25);
 }
 </style>
