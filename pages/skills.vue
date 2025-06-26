@@ -75,47 +75,13 @@ const skills = ref([
 </script>
 
 <template>
-    <div>
-        <Section id="home">
-            <SectionHeader>Welcome to my page</SectionHeader>
-
-            <div class="flex justify-between flex-wrap">
-                <SectionText class="basis-full lg:basis-1/2">I am a beginner Front-End developer, who has a passion of making web apps using Nuxt 3 and Vue.js 3</SectionText>
-                <div class="basis-full lg:basis-1/4">
-                    <SectionImage :image="'/mandarin-duck.jpg'" :label="'Literally me'" />
-                </div>
+    <Page>
+        <PageHeader class="centered">Skills</PageHeader>
+        
+        <div class="flex justify-center">
+            <div class="flex flex-row justify-center flex-wrap lg:w-3/4">
+                <PageIcon v-for="skill in skills" :class="{ 'primary': skill.isPrimary }" :image="skill.image" :label="skill.label" />
             </div>
-
-            <SectionDivider />
-        </Section>
-
-        <Section id="skills">
-            <SectionHeader class="centered">Skills</SectionHeader>
-            
-            <div class="flex justify-center">
-                <div class="flex flex-row justify-center flex-wrap lg:w-3/4">
-                    <SectionIcon v-for="skill in skills" :class="{ 'primary': skill.isPrimary }" :image="skill.image" :label="skill.label" />
-                </div>
-            </div>
-
-            <SectionDivider />
-        </Section>
-
-        <Section :addBottomPadding="true">
-            <SectionHeader>Projects</SectionHeader>
-            
-            <SectionCard id="linTime">
-                <div class="basis-full lg:basis-1/2">
-                    <SectionSubheader>lintime</SectionSubheader>
-                    <SectionText>A simple app with usual Timer, Tabata Timer and Stopwatch, created with Nuxt 3</SectionText>
-                </div>
-
-                <div class="basis-full lg:basis-1/3">
-                    <SectionImage :image="'/lintime-screenshot.png'" :label="'My first Nuxt project'" />
-
-                    <SectionButton :link="'https://lintime.deno.dev/'">Check it out!</SectionButton>
-                </div>
-            </SectionCard>
-        </Section>
-    </div>
+        </div>
+    </Page>
 </template>

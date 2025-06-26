@@ -5,9 +5,9 @@ const hoverClass = useHeaderHoverClass()
 </script>
 
 <template>
-    <a class="link gap-2" :class="[defaultClass], { [hoverClass]: isHovered }" @mouseover="isHovered = true" @mouseout="isHovered = false">
+    <NuxtLink class="link gap-2" :class="[defaultClass], { [hoverClass]: isHovered }" @mouseover="isHovered = true" @mouseout="isHovered = false">
         <slot />
-    </a>
+    </NuxtLink>
 </template>
 
 <style scoped>

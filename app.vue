@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen">
     <Header />
-    <SectionGroup />
+    <NuxtPage />
     <Footer />
   </div>
 </template>
@@ -33,5 +33,19 @@
 
 body {
     background: linear-gradient(45deg, rgb(13, 103, 131), rgb(53, 13, 126), rgb(122, 12, 173));
+}
+
+.page-enter-active, .page-leave-active {
+  transition: all .5s;
+}
+.page-enter-from, .page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
+.page-enter-from {
+    transform: translateX(1rem);
+}
+.page-leave-to {
+    transform: translateX(-1rem);
 }
 </style>
