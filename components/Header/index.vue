@@ -20,6 +20,9 @@
                     <HeaderDropdownItem to="/projects#linTime" class="border rounded-e-md hover:rounded-e-xl">
                         linTime
                     </HeaderDropdownItem>
+                    <HeaderDropdownItem to="/projects#naholosy" class="border rounded-e-md hover:rounded-e-xl">
+                        naholosy
+                    </HeaderDropdownItem>
                 </div>
             </HeaderDropdown>
         </div>
@@ -30,6 +33,9 @@
             <HeaderDropdown :icon="'bi-bookmark-fill'" :label="'Projects'">
                 <HeaderDropdownItem href="/projects#linTime" class="border-b">
                     linTime
+                </HeaderDropdownItem>
+                <HeaderDropdownItem href="/projects#naholosy" class="border-b">
+                    naholosy
                 </HeaderDropdownItem>
             </HeaderDropdown>
         </div>

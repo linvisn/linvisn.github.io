@@ -12,5 +12,16 @@
                 <PageButton :link="'https://lintime.deno.dev/'">Check it out!</PageButton>
             </div>
         </PageCard>
+
+        <PageCard id="naholosy">
+            <div class="basis-full lg:basis-1/2">
+                <PageSubheader>naholosy</PageSubheader>
+                <PageText>Тренажер наголосів з української мови для підготовки до ЗНО та НМТ</PageText>
+            </div>
+            <div class="basis-full lg:basis-1/3">
+                <PageImage :image="'/naholosy-screenshot.png'" :label="'Сторінка тренування'" />
+                <PageButton :link="'https://naholosy.deno.dev/'">Check it out!</PageButton>
+            </div>
+        </PageCard>
     </Page>
 </template>

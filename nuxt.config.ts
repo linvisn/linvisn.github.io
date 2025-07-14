@@ -12,7 +12,7 @@ export default defineNuxtConfig({
   },
   googleFonts: {
     families: {
-      'Work Sans': '100..900'
+      'IBM Plex Sans': '100..700'
     }
   },
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', '@vueuse/nuxt'],

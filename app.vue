@@ -24,7 +24,7 @@
 }
 
 * {
-    font-family: 'Work Sans';
+    font-family: 'IBM Plex Sans';
     color: white;
     
     transition: all 0.5s ease;
