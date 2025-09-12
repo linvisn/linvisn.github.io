@@ -3,7 +3,7 @@ const skills = ref([
     { 
         image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nuxtjs/nuxtjs-original.svg',
         isPrimary: true,
-        label: 'Nuxt 3'
+        label: 'Nuxt 4'
     },
     { 
         image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg',
@@ -11,14 +11,9 @@ const skills = ref([
         label: 'Vue.js 3'
     },
     { 
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg',
+        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuetify/vuetify-original.svg',
         isPrimary: true,
-        label: 'Tailwind'
-    },
-    { 
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg',
-        isPrimary: true,
-        label: 'Bootstrap 5'
+        label: 'Vuetify'
     },
     { 
         image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg',
@@ -26,14 +21,21 @@ const skills = ref([
         label: 'Javascript'
     },
     { 
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg',
-        isPrimary: true,
-        label: 'C'
-    },
-    { 
         image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg',
         isPrimary: true,
         label: 'Git'
+    },
+    { 
+        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg',
+        label: 'Tailwind'
+    },
+    { 
+        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg',
+        label: 'Bootstrap 5'
+    },
+    { 
+        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg',
+        label: 'Node.js'
     },
     { 
         image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg',
@@ -44,20 +46,20 @@ const skills = ref([
         label: 'CSS'
     },
     { 
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg',
-        label: 'Python'
+        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg',
+        label: 'Unity'
+    },
+    { 
+        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg',
+        label: 'C'
     },
     { 
         image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg',
         label: 'C Sharp'
     },
     { 
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg',
-        label: 'Unity'
-    },
-    { 
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg',
-        label: 'Node.js'
+        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg',
+        label: 'Python'
     },
     { 
         image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg',
@@ -81,7 +83,7 @@ const skills = ref([
             <div class="basis-full lg:basis-1/2">
                 <PageText>I am a beginner Front-End developer, who has a passion of making web apps using Nuxt 4</PageText>
                 
-                <div class="flex flex-row justify-center lg:justify-start flex-wrap mb-10">
+                <div class="flex flex-row justify-start flex-wrap mb-10">
                     <PageIcon v-for="skill in skills" :class="{ 'primary': skill.isPrimary }" :image="skill.image" :label="skill.label" />
                 </div>
             </div>

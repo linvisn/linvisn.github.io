@@ -7,7 +7,7 @@
                 <Icon name="cib:github" /> GitHub
             </FooterLink>
             <FooterText>
-                <i class="bi bi-envelope-fill"></i> linvisn@proton.me
+                <Icon name="mdi:email" /> linvisn@proton.me
             </FooterText>
         </footer>
     </div>

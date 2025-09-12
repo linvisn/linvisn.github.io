@@ -6,7 +6,7 @@
             </HeaderTitle>
             
             <HeaderDropdown class="inline lg:hidden" :icon="'mdi:menu'" :isMenu="true">
-                <HeaderDropdownItem to="/">
+                <HeaderDropdownItem class="border-b" to="/">
                     <Icon name="mdi:home-variant" /> Home
                 </HeaderDropdownItem>
 
@@ -14,10 +14,10 @@
                     <Icon name="mdi:bookmark-multiple" /> Projects
                 </HeaderDropdownLabel>
                 <div class="flex flex-col justify-start mx-4 mb-1 pl-2 py-1 border-l border-white/25">
-                    <HeaderDropdownItem to="/projects#naholosy" class="border rounded-e-md hover:rounded-e-xl">
+                    <HeaderDropdownItem class="border-x" to="/projects#naholosy">
                         naholosy
                     </HeaderDropdownItem>
-                    <HeaderDropdownItem to="/projects#linTime" class="border rounded-e-md hover:rounded-e-xl">
+                    <HeaderDropdownItem class="border-x border-b" to="/projects#linTime">
                         linTime
                     </HeaderDropdownItem>
                 </div>
@@ -27,7 +27,7 @@
         <div class="hidden lg:flex flex-row">
             <HeaderLink to="/"><Icon name="mdi:home-variant" /> Home</HeaderLink>
             <HeaderDropdown :icon="'mdi:bookmark-multiple'" :label="'Projects'">
-                <HeaderDropdownItem href="/projects#naholosy" class="border-b">
+                <HeaderDropdownItem href="/projects#naholosy">
                     naholosy
                 </HeaderDropdownItem>
                 <HeaderDropdownItem href="/projects#linTime" class="border-b">

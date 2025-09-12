@@ -5,13 +5,13 @@ const hoverClass = useHeaderHoverClass()
 </script>
 
 <template>
-    <NuxtLink class="link gap-2" :class="[defaultClass], { [hoverClass]: isHovered }" @mouseover="isHovered = true" @mouseout="isHovered = false">
+    <NuxtLink class="header-link gap-1" :class="[defaultClass, { [hoverClass]: isHovered }]" @mouseover="isHovered = true" @mouseout="isHovered = false">
         <slot />
     </NuxtLink>
 </template>
 
 <style scoped>
-.link {
+.header-link {
     background: rgba(255, 132, 83, .5);
 }
 
