@@ -15,7 +15,7 @@ const hoverClass = useHeaderHoverClass()
 
 <template>
     <span class="dropdown relative" :class="[defaultClass], { [hoverClass]: isExpanded || isHovered, 'text-3xl': isMenu, 'gap-2': !isMenu }" @click="isExpanded = !isExpanded" v-on-click-outside="() => { isExpanded = false }" @mouseover="isHovered = true" @mouseout="isHovered = false">
-        <i class="bi" :class="icon"></i> {{ label }}
+        <Icon :name="icon || ''" /> {{ label }}
         <span>
             <i v-if="isExpanded" class="bi bi-caret-up-fill"></i>
             <i v-else class="bi bi-caret-down-fill"></i>

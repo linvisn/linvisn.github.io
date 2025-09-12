@@ -10,10 +10,13 @@ export default defineNuxtConfig({
     },
     pageTransition: { name: 'page', mode: 'out-in' }
   },
-  googleFonts: {
-    families: {
-      'IBM Plex Sans': '100..700'
-    }
+  fonts: {
+    defaults: {
+      weights: ['100 700']
+    },
+    families: [
+      { name: 'IBM Plex Sans', provider: 'google' }
+    ]
   },
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-fonts', '@vueuse/nuxt'],
+  modules: ['@nuxtjs/tailwindcss', '@vueuse/nuxt', '@nuxt/fonts', '@nuxt/icon'],
 })

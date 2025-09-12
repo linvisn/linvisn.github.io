@@ -76,11 +76,18 @@ const skills = ref([
 
 <template>
     <Page>
-        <PageHeader class="centered">Skills</PageHeader>
-        
-        <div class="flex justify-center">
-            <div class="flex flex-row justify-center flex-wrap lg:w-3/4">
-                <PageIcon v-for="skill in skills" :class="{ 'primary': skill.isPrimary }" :image="skill.image" :label="skill.label" />
+        <PageHeader>Welcome to my website</PageHeader>
+        <div class="flex justify-between flex-wrap">
+            <div class="basis-full lg:basis-1/2">
+                <PageText>I am a beginner Front-End developer, who has a passion of making web apps using Nuxt 4</PageText>
+                
+                <div class="flex flex-row justify-center lg:justify-start flex-wrap mb-10">
+                    <PageIcon v-for="skill in skills" :class="{ 'primary': skill.isPrimary }" :image="skill.image" :label="skill.label" />
+                </div>
+            </div>
+
+            <div class="basis-full lg:basis-1/4">
+                <PageImage :image="'/mandarin-duck.jpg'" :label="'Literally me'" />
             </div>
         </div>
     </Page>

@@ -7,8 +7,6 @@
 </template>
 
 <style>
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
-
 @property --angle {
     syntax: "<angle>";
     initial-value: 0deg;
@@ -43,9 +41,9 @@ body {
   filter: blur(1rem);
 }
 .page-enter-from {
-    transform: translateX(1rem);
+    transform: translateY(1rem);
 }
 .page-leave-to {
-    transform: translateX(-1rem);
+    transform: translateY(-1rem);
 }
 </style>

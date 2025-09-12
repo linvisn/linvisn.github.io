@@ -4,10 +4,7 @@
             before:rounded-md
         ">
             <FooterLink href="https://github.com/linvisn">
-                <i class="bi bi-github"></i> GitHub
-            </FooterLink>
-            <FooterLink href="https://www.codewars.com/users/linvisn">
-                <i class="bi bi-code-slash"></i> Codewars
+                <Icon name="cib:github" /> GitHub
             </FooterLink>
             <FooterText>
                 <i class="bi bi-envelope-fill"></i> linvisn@proton.me

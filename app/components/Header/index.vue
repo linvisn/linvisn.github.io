@@ -5,37 +5,33 @@
                 linvisn
             </HeaderTitle>
             
-            <HeaderDropdown class="inline lg:hidden" :isMenu="true">
+            <HeaderDropdown class="inline lg:hidden" :icon="'mdi:menu'" :isMenu="true">
                 <HeaderDropdownItem to="/">
-                    <i class="bi bi-house-fill"></i> Home
-                </HeaderDropdownItem>
-                <HeaderDropdownItem to="/skills" class="border-b">
-                    <i class="bi bi-activity"></i> Skills
+                    <Icon name="mdi:home-variant" /> Home
                 </HeaderDropdownItem>
 
                 <HeaderDropdownLabel>
-                    <i class="bi bi-bookmark-fill"></i> Projects
+                    <Icon name="mdi:bookmark-multiple" /> Projects
                 </HeaderDropdownLabel>
                 <div class="flex flex-col justify-start mx-4 mb-1 pl-2 py-1 border-l border-white/25">
-                    <HeaderDropdownItem to="/projects#linTime" class="border rounded-e-md hover:rounded-e-xl">
-                        linTime
-                    </HeaderDropdownItem>
                     <HeaderDropdownItem to="/projects#naholosy" class="border rounded-e-md hover:rounded-e-xl">
                         naholosy
+                    </HeaderDropdownItem>
+                    <HeaderDropdownItem to="/projects#linTime" class="border rounded-e-md hover:rounded-e-xl">
+                        linTime
                     </HeaderDropdownItem>
                 </div>
             </HeaderDropdown>
         </div>
 
         <div class="hidden lg:flex flex-row">
-            <HeaderLink to="/"><i class="bi bi-house-fill"></i> Home</HeaderLink>
-            <HeaderLink to="/skills"><i class="bi bi-activity"></i> Skills</HeaderLink>
-            <HeaderDropdown :icon="'bi-bookmark-fill'" :label="'Projects'">
-                <HeaderDropdownItem href="/projects#linTime" class="border-b">
-                    linTime
-                </HeaderDropdownItem>
+            <HeaderLink to="/"><Icon name="mdi:home-variant" /> Home</HeaderLink>
+            <HeaderDropdown :icon="'mdi:bookmark-multiple'" :label="'Projects'">
                 <HeaderDropdownItem href="/projects#naholosy" class="border-b">
                     naholosy
+                </HeaderDropdownItem>
+                <HeaderDropdownItem href="/projects#linTime" class="border-b">
+                    linTime
                 </HeaderDropdownItem>
             </HeaderDropdown>
         </div>
