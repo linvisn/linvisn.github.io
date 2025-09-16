@@ -1,5 +1,5 @@
 <template>
-    <div class="subheader mb-4 text-4xl font-semibold">
+    <div class="subheader mb-2 text-4xl font-semibold">
         <slot />
     </div>
 </template>

@@ -4,7 +4,7 @@
         
         <PageCard id="naholosy">
             <div class="basis-full lg:basis-1/2">
-                <PageSubheader>naholosy</PageSubheader>
+                <PageSubheader class="mb-4">naholosy</PageSubheader>
                 <PageText>Тренажер наголосів з української мови для підготовки до ЗНО та НМТ</PageText>
             </div>
             <div class="basis-full lg:basis-1/3">
@@ -15,7 +15,8 @@
 
         <PageCard id="linTime">
             <div class="basis-full lg:basis-1/2">
-                <PageSubheader>lintime (deprecated)</PageSubheader>
+                <PageSubheader>lintime</PageSubheader>
+                <PageBadge class="border-white/25 bg-slate-500/75">deprecated</PageBadge>
                 <PageText>A simple app with usual Timer, Tabata Timer and Stopwatch, created with Nuxt 3</PageText>
             </div>
             <div class="basis-full lg:basis-1/3">
