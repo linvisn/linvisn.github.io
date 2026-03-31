@@ -9,11 +9,11 @@
             </div>
             <div class="basis-full lg:basis-1/3">
                 <PageImage :image="'/naholosy-screenshot.png'" :label="'Несе корОва дрОва'" />
-                <PageButton :link="'https://naholosy.deno.dev/'">Check it out!</PageButton>
+                <PageButton :link="'https://naholosy.vercel.app/'">Check it out!</PageButton>
             </div>
         </PageCard>
 
-        <PageCard id="linTime">
+        <PageCard id="lintime">
             <div class="basis-full lg:basis-1/2">
                 <PageSubheader>lintime</PageSubheader>
                 <PageBadge class="border-white/25 bg-slate-500/75">deprecated</PageBadge>
@@ -21,7 +21,7 @@
             </div>
             <div class="basis-full lg:basis-1/3">
                 <PageImage :image="'/lintime-screenshot.png'" :label="'My first Nuxt project'" />
-                <PageButton :link="'https://lintime.deno.dev/'">Check it out!</PageButton>
+                <PageButton :link="'https://github.com/linvisn/lintime'">Check it out!</PageButton>
             </div>
         </PageCard>
     </Page>

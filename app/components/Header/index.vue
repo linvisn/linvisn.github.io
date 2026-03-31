@@ -17,8 +17,8 @@
                     <HeaderDropdownItem class="border-x" to="/projects#naholosy">
                         naholosy
                     </HeaderDropdownItem>
-                    <HeaderDropdownItem class="border-x border-b" to="/projects#linTime">
-                        linTime
+                    <HeaderDropdownItem class="border-x border-b" to="/projects#lintime">
+                        lintime
                     </HeaderDropdownItem>
                 </div>
             </HeaderDropdown>
@@ -30,8 +30,8 @@
                 <HeaderDropdownItem href="/projects#naholosy">
                     naholosy
                 </HeaderDropdownItem>
-                <HeaderDropdownItem href="/projects#linTime" class="border-b">
-                    linTime
+                <HeaderDropdownItem href="/projects#lintime" class="border-b">
+                    lintime
                 </HeaderDropdownItem>
             </HeaderDropdown>
         </div>
