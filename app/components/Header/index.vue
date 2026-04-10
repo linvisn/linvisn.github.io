@@ -2,7 +2,7 @@
     <header class="flex justify-between items-center flex-wrap sticky top-0 px-5 lg:px-12 py-2 border-b-2 z-50">
         <div class="flex justify-between w-screen lg:w-auto">
             <HeaderTitle>
-                linvisn
+                <NuxtLink href="/">linvisn</NuxtLink>
             </HeaderTitle>
             
             <HeaderDropdown class="inline lg:hidden" :icon="'mdi:menu'" :isMenu="true">

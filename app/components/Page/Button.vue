@@ -6,7 +6,7 @@ defineProps({
 
 <template>
     <div class="flex justify-center w-full">
-        <a :href="link" target="_blank" class="button relative px-4 py-2 mt-6 font-medium hover:font-semibold hover:tracking-wider rounded cursor-pointer 
+        <a :href="link" target="_blank" class="button relative px-4 py-2 mt-6 font-medium duration-300 hover:font-semibold hover:tracking-wider rounded cursor-pointer 
             before:blur hover:before:blur-lg 
             after:rounded-md
         ">

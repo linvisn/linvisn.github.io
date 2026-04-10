@@ -30,6 +30,10 @@ const skills = ref([
         label: 'Tailwind'
     },
     { 
+        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/framermotion/framermotion-original.svg',
+        label: 'Motion'
+    },
+    { 
         image: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg',
         label: 'Bootstrap 5'
     },

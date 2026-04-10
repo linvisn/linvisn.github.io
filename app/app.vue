@@ -25,7 +25,6 @@
     font-family: 'IBM Plex Sans';
     color: white;
     
-    transition: all 0.5s ease;
     scroll-behavior: smooth;
 }
 

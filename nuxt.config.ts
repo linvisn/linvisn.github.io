@@ -1,6 +1,14 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
+  vite: {
+    optimizeDeps: {
+      include: [
+        '@vue/devtools-core',
+        '@vue/devtools-kit'
+      ]
+    }
+  },
   devtools: { enabled: true },
   app: {
     head: {
@@ -18,5 +26,12 @@ export default defineNuxtConfig({
       { name: 'IBM Plex Sans', provider: 'google' }
     ]
   },
-  modules: ['@nuxtjs/tailwindcss', '@vueuse/nuxt', '@nuxt/fonts', '@nuxt/icon'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    '@vueuse/nuxt',
+    '@nuxt/fonts',
+    '@nuxt/icon',
+    'motion-v/nuxt',
+    '@nuxt/image',
+  ],
 })
