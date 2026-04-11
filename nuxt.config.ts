@@ -5,7 +5,8 @@ export default defineNuxtConfig({
     optimizeDeps: {
       include: [
         '@vue/devtools-core',
-        '@vue/devtools-kit'
+        '@vue/devtools-kit',
+        'simple-analytics-vue'
       ]
     }
   },
